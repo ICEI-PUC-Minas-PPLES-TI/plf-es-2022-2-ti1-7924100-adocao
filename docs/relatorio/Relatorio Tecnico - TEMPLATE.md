@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  My Pet Friend
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Engenharia de Software 
 
 ## Participantes
 
@@ -56,7 +56,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade nos processos para a adoção de pets, principalmente para aquelas pessoas interessadas em um animal de estimação que se encaixe no seu estilo de vida.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +76,13 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O objetivo geral deste trabalho é a criação de uma plataforma de anúncios de animais de estimação que estejam necessitando de um novo lar. O site deve tornar o processo mais prático e eficiente, de forma que os usuários encontrem os pets ideais para sua rotina e que os animais encontrem uma casa acolhedora e segura.
+
+ Como objetivos específicos, podemos ressaltar:
+  Disponibilizar informações bem específicas sobre os animais.
+  Facilitar a busca pelo animal ideal à rotina do usuário.
+  Tornar o processo de adoção mais simples, porém, mantendo a segurança do animal.
+
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -89,7 +95,14 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Vários estudos mostram que os animais de estimação são bons para a saúde das pessoas. Além disso, ter um pet em casa pode incentivar o exercício, melhorar a pressão arterial e melhor muito o mental do dono evitando que mostre sinais de depressão, estresse ou ansiedade 
+
+ Mais motivos seriam:
+  Garante um companheiro há todo momento.
+  Ajudar a ter mais responsabilidade.
+  Você estaria salvando uma vida.
+  Alerta em situações de perigo.
+
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -124,7 +137,7 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -164,8 +177,31 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pedro Abreu         |Quer adotar um cachorro que         | Ele mora sozinho e gostaria de ter     | 
+|                    |se adapte à sua rotina.             |alguém que esteja lhe esperando em casa,|
+|                    |                                    |mas que se sinta bem mesmo estando      |
+|                    |                                    | solitário.                             |
+|------------------- |------------------------------------|----------------------------------------|
+|José Antonio        |Já é dono de pet mas queria arranjar| José como fica fora muito tempo queria |
+|                    |outro pet.                          |mais um pet para fazer companhia a seu  |
+|                    |                                    |amigo enquanto está fora.               |
+|------------------- |------------------------------------|----------------------------------------|
+|Daniele Silva       |Queria encontrar um pet pequeno para| Daniele mora em um apartamento e queria|
+|                    |cuidar em seu apartamento.          |um pet pequeno mas está na dúvida de    |
+|                    |                                    |qual se encaixaria melhor na sua vida.  |
+|------------------- |------------------------------------|----------------------------------------|
+|Simone Aparecida    |Quer adotar um pet de forma barata  | Simone não possui a melhor condição    |
+|                    |e fácil.                            |financeira e por isso não tem dinheiro  |
+|                    |                                    |para comprar o gato dos sonhos.         |
+|------------------- |------------------------------------|----------------------------------------|
+|Matheus Torres      |Tem o sonho de ter um pomsky cinza. | Para lhe fazer companhia, mas          |
+|                    |                                    |infelizmente o único canil de pomskys   |
+|                    |                                    |atual é no Amapá                        |
+|------------------- |------------------------------------|----------------------------------------|
+|Gabriela Borba      |Queria doar seus gatos, pois deram  |Ela não tem onde deixá-los e não acha   |
+|                    |crias.                              |ninguém para ficar com eles.            |
+|------------------- |------------------------------------|----------------------------------------|
+
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -186,16 +222,56 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| O site deve apresentar uma maneira de   | ALTA | 
+|      |registrar de forma limpa as informações  |      |
+|      |do pet que você quer doar.               |      |
+|------|-----------------------------------------|----|
+|RF-002| O site pode conter notícias sobre adoção| BAIXA|
+|      |  ou pesquisas novas                     |      |
+|------|-----------------------------------------|----|
+|RF-003| O site deve separar os itens dependendo | ALTA |
+|      |da localização onde o usuário se situa.  |      |
+|------|-----------------------------------------|----|
+|RF-004| O site deve dividir permitir registrar  | MÉDIA|
+|      |seus pet de forma que mostre seu         |      |
+|      |diferencial(raça,espécie)                |      |
+|------|-----------------------------------------|----|
+|RF-005| O site deve oferecer uma funcionalidade | ALTA |
+|      |de filtro/pesquisa para permitir ao      |      |
+|      |usuário localizar um texto específico que|      | 
+|      |será informado na caixa de pesquisa.     |      |
+|------|-----------------------------------------|----|
+|RF-006| O site pode conter um chat com o doador | BAIXA|
+|      |para poder trocar informações            |      |
+|------|-----------------------------------------|----|
+|RF-007| O site deve conter uma ferramenta de    | ALTA |
+|      |exclusão de anúncios para quando o animal|      |
+|      |já não estiver disponível.               |      | 
+|------|-----------------------------------------|----|
+|RF-008| O site deve ter sua preferência de pets.| BAIXA|
+|------|-----------------------------------------|----|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|-------|-------------------------------|----|
+|RNF-001|O site deve ser publicado em um| ALTA | 
+|       |ambiente acessível publicamente|      |
+|       |na Internet                    |      |
+|       |(Repl.it, GitHubPages, Heroku);|      |
+|-------|-------------------------------|------|
+|RNF-002| O site deverá ser responsivo  | MÉDIA | 
+|       |permitindo a visualização em um|       |
+|       |celular de forma adequada      |       |
+|-------|-------------------------------|------|
+|RNF-003| O site deve ter bom nível de  | ALTA | 
+|       |contraste entre os elementos da|      |
+|       |tela em conformidade           |      |
+|-------|-------------------------------|------|        
+|RNF-004| O site deve ser compatível com| ALTA |
+|       |os principais navegadores do   |      |
+|       |mercado.                       |      |
+|-------|-------------------------------|------|
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -225,9 +301,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O projeto deverá ser entregue no final do semestre    |
+|  |não podendo extrapolar a data de 10/12/2022.           |
+|02| O aplicativo deve se restringir às tecnologias básicas|
+|  |da Web no Frontend                                     |
+|03| A equipe não pode subcontratar o desenvolvimento do   |
+|  |trabalho.                                              |
+|--|-------------------------------------------------------|
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
 > geralmente limitam a solução candidata.
@@ -239,8 +319,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
+ Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+ 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
 > funcionais e histórias de usuário abordados nas [Especificações do
@@ -287,7 +367,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+  Recursos para Projetos: esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+  Perguntas para a próxima reunião: Recebe ideias que os integrantes tiveram durante o dia a dia e que devem ser apresentadas durante a próxima reunião devem ser incorporadas a esta lista.
+  A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+  Pendente: Quando uma tarefa tiver sido iniciada, mas que ainda não foi concluída, ela é movida para cá.
+  Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+ O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/invite/b/AhI2pIxE/94e50810cd26875e6f47a9c003419713/gestao-de-projetos e é apresentado, no estado atual, na Figura 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -307,7 +395,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ A equipe está organizada da seguinte maneira:
+  Scrum Master: Rommel Carneiro
+  Product Owner: Rommel Carneiro
+  
+  Equipe de Desenvolvimento
+  Henrique Dani Franco Nezio(Desenvolvedor Front End)
+  Pedro Henrique Lobato (Desenvolvedor Back End)
+  Ryan Cristian(Analista de Mercado)
+  Matheus Pretti de Oliva (Designer)
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -320,12 +416,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|          Ambiente                | Plataforma |                                       Link de Acesso                                     |
+|----------------------------------|------------|------------------------------------------------------------------------------------------|
+|Documentos do projeto             |   GitHub   | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao              | 
+|Repositório de código fonte       |   GitHub   | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao              | 
+|Projeto de Interface e  Wireframes|   Figma    | https://www.figma.com/file/DC6DRkF79dKUSaFlxu6zAi/MyPetFriend?node-id=0%3A1              | 
+|Gerenciamento do Projeto          |   Trello   | https://trello.com/invite/b/AhI2pIxE/94e50810cd26875e6f47a9c003419713/gestao-de-projetos | 
+|----------------------------------|------------|------------------------------------------------------------------------------------------|
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -352,7 +449,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Feature Branch Workflow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados. Uma explicação rápida sobre este processo é apresentada no site "5 Git Workflows & Branching Strategy to deliver better code".
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
