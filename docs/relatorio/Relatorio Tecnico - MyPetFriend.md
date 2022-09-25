@@ -274,13 +274,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
   Scrum Master: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
   Product Owner: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
   
-  Equipe de Desenvolvimento
-  Henrique Dani Franco Nezio(Desenvolvedor Front End)
-  Pedro Henrique Lobato (Desenvolvedor Back End)
-  Ryan Cristian(Analista de Mercado)
-  Matheus Pretti de Oliva (Designer)
-  Lucca Oliveira Vasconcelos de Faria (Designer)
-  Arthur George Souza Cardenas
+  Equipe de Desenvolvimento:
+  - Henrique Dani Franco Nezio(Desenvolvedor Front End)
+  - Pedro Henrique Lobato (Desenvolvedor Back End)
+  - Ryan Cristian(Analista de Mercado)
+  - Matheus Pretti de Oliva (Designer)
+  - Lucca Oliveira Vasconcelos de Faria (Designer)
+  - Arthur George Souza Cardenas
 
 
 ## Ferramentas
