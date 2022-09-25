@@ -110,8 +110,13 @@ Desta forma, estabeleceu-se como público-alvo desta solução ONG's e Pet Shops
 
 Seguem abaixo as personas que representam os entrevistados através dos dados registrados:
   
+ **Persona 1**:
  ![Persona 1](imaages/../images/persona1.png)
+ 
+ **Persona 2**:
  ![Persona 2](imaages/../images/persona2.png)
+ 
+ **Persona 3**:
  ![Persona 3](imaages/../images/persona3.png)
  
 
@@ -234,14 +239,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
  
+ **Home Page**:
 ![HomePage](images/HomePage.png)
 
+**Tela de Cadastro**:
 ![Tela de Cadastro](images/TelaCadastro.png)
 
+**Página dos Animais**:
 ![Página dos Animais](images/TelaAnimais.png)
 
+**Animal Selecionado**:
 ![Animal Selecionado](images/AnimalSelecionado.png)
 
+**Cadastro do Animal**:
 ![Cadastro do Animal](images/CadastroAnimal.png)
 
 
