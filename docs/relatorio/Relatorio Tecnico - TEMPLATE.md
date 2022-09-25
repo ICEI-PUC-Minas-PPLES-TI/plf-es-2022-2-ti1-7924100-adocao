@@ -9,13 +9,14 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os membros do grupo são:
+- Henrique Dani Franco Nezio
+- Ryan Cristian Oliveira Rezende
+- Pedro Henrique Lobato Firbida
+- Lucca Oliveira Vasconcelos de Faria
+- Matheus Pretti de Oliva
+- Arthur George Souza Cardenas
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
@@ -79,23 +80,13 @@
  O objetivo geral deste trabalho é a criação de uma plataforma de anúncios de animais de estimação que estejam necessitando de um novo lar. O site deve tornar o processo mais prático e eficiente, de forma que os usuários encontrem os pets ideais para sua rotina e que os animais encontrem uma casa acolhedora e segura.
 
  Como objetivos específicos, podemos ressaltar:
-  Disponibilizar informações bem específicas sobre os animais.
-  Facilitar a busca pelo animal ideal à rotina do usuário.
-  Tornar o processo de adoção mais simples, porém, mantendo a segurança do animal.
-
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+  - Disponibilizar informações bem específicas sobre os animais.
+  - Facilitar a busca pelo animal ideal à rotina do usuário.
+  - Tornar o processo de adoção mais simples, porém, mantendo a segurança do animal.
 
 ## Justificativa
 
- Vários estudos mostram que os animais de estimação são bons para a saúde das pessoas. Além disso, ter um pet em casa pode incentivar o exercício, melhorar a pressão arterial e melhor muito o mental do dono evitando que mostre sinais de depressão, estresse ou ansiedade 
+ Vários estudos mostram que os animais de estimação são bons para a saúde das pessoas. Além disso, ter um pet em casa pode incentivar o exercício, melhorar a pressão arterial e ajudar no mental do dono evitando que mostre sinais de depressão, estresse ou ansiedade. 
 
  Mais motivos seriam:
   Garante um companheiro há todo momento.
@@ -104,71 +95,25 @@
   Alerta em situações de perigo.
 
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo do nosso projeto são aqueles que têm o interesse de adotar seu animal dos sonhos com facilidade. Assim como, aqueles que querem encontrar um novo lar para um Pet também.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Desta forma, estabeleceu-se como público-alvo desta solução ONG's e Pet Shops para anúncio de animais disponíveis para adoção, assim como homens e mulheres de 20 a 60 anos que tem interesse em adotar animais de forma facilitada e segura.
+
  
 # Especificações do Projeto
 
  A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+Seguem abaixo as personas que representam os entrevistados através dos dados registrados:
+  
+ ![Persona 1](imaages/../images/persona1.png)
+ ![Persona 2](imaages/../images/persona2.png)
+ ![Persona 3](imaages/../images/persona3.png)
+ 
 
 
 ## Histórias de Usuários
@@ -203,96 +148,64 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------------------- |------------------------------------|----------------------------------------|
 
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O site deve apresentar uma maneira de   | ALTA | 
-|      |registrar de forma limpa as informações  |      |
-|      |do pet que você quer doar.               |      |
-|------|-----------------------------------------|----|
-|RF-002| O site pode conter notícias sobre adoção| BAIXA|
-|      |  ou pesquisas novas                     |      |
-|------|-----------------------------------------|----|
-|RF-003| O site deve separar os itens dependendo | ALTA |
-|      |da localização onde o usuário se situa.  |      |
-|------|-----------------------------------------|----|
-|RF-004| O site deve dividir permitir registrar  | MÉDIA|
-|      |seus pet de forma que mostre seu         |      |
-|      |diferencial(raça,espécie)                |      |
-|------|-----------------------------------------|----|
-|RF-005| O site deve oferecer uma funcionalidade | ALTA |
-|      |de filtro/pesquisa para permitir ao      |      |
-|      |usuário localizar um texto específico que|      | 
-|      |será informado na caixa de pesquisa.     |      |
-|------|-----------------------------------------|----|
-|RF-006| O site pode conter um chat com o doador | BAIXA|
-|      |para poder trocar informações            |      |
-|------|-----------------------------------------|----|
-|RF-007| O site deve conter uma ferramenta de    | ALTA |
-|      |exclusão de anúncios para quando o animal|      |
-|      |já não estiver disponível.               |      | 
-|------|-----------------------------------------|----|
-|RF-008| O site deve ter sua preferência de pets.| BAIXA|
-|------|-----------------------------------------|----|
+|ID    | Descrição do Requisito                  |Prioridade|
+|------|-----------------------------------------|----------|
+|RF-001| O site deve apresentar uma maneira de   | ALTA     | 
+|      |registrar de forma limpa as informações  |          |
+|      |do pet que você quer doar.               |          |
+|------|-----------------------------------------|----------|
+|RF-002| O site pode conter notícias sobre adoção| BAIXA    |
+|      |  ou pesquisas novas                     |          |
+|------|-----------------------------------------|----------|
+|RF-003| O site deve separar os itens dependendo | ALTA     |
+|      |da localização onde o usuário se situa.  |          |
+|------|-----------------------------------------|----------|
+|RF-004| O site deve dividir permitir registrar  | MÉDIA    |
+|      |seus pet de forma que mostre seu         |          |
+|      |diferencial(raça,espécie)                |          |
+|------|-----------------------------------------|----------|
+|RF-005| O site deve oferecer uma funcionalidade | ALTA     |
+|      |de filtro/pesquisa para permitir ao      |          |
+|      |usuário localizar um texto específico que|          | 
+|      |será informado na caixa de pesquisa.     |          |
+|------|-----------------------------------------|----------|
+|RF-006| O site pode conter um chat com o doador | BAIXA    |
+|      |para poder trocar informações            |          |
+|------|-----------------------------------------|----------|
+|RF-007| O site deve conter uma ferramenta de    | ALTA     |
+|      |exclusão de anúncios para quando o animal|          |
+|      |já não estiver disponível.               |          | 
+|------|-----------------------------------------|----------|
+|RF-008| O site deve ter sua preferência de pets.| BAIXA    |
+|------|-----------------------------------------|----------|
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------------|----|
-|RNF-001|O site deve ser publicado em um| ALTA | 
-|       |ambiente acessível publicamente|      |
-|       |na Internet                    |      |
-|       |(Repl.it, GitHubPages, Heroku);|      |
-|-------|-------------------------------|------|
-|RNF-002| O site deverá ser responsivo  | MÉDIA | 
-|       |permitindo a visualização em um|       |
-|       |celular de forma adequada      |       |
-|-------|-------------------------------|------|
-|RNF-003| O site deve ter bom nível de  | ALTA | 
-|       |contraste entre os elementos da|      |
-|       |tela em conformidade           |      |
-|-------|-------------------------------|------|        
-|RNF-004| O site deve ser compatível com| ALTA |
-|       |os principais navegadores do   |      |
-|       |mercado.                       |      |
-|-------|-------------------------------|------|
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|ID     | Descrição do Requisito        |Prioridade|
+|-------|-------------------------------|----------|
+|RNF-001|O site deve ser publicado em um|          | 
+|       |ambiente acessível publicamente|          |
+|       |na Internet                    |   ALTA   |
+|       |(Repl.it, GitHubPages);        |          |
+|-------|-------------------------------|----------|
+|RNF-002| O site deverá ser responsivo  |          | 
+|       |permitindo a visualização em um|   MÉDIA  |
+|       |celular de forma adequada      |          |
+|-------|-------------------------------|----------|
+|RNF-003| O site deve ter bom nível de  |          | 
+|       |contraste entre os elementos da|   ALTA   |
+|       |tela em conformidade           |          |
+|-------|-------------------------------|----------|        
+|RNF-004| O site deve ser compatível com|          |
+|       |os principais navegadores do   |   ALTA   |
+|       |mercado.                       |          |
+|-------|-------------------------------|----------|
 
 
 ## Restrições
@@ -309,60 +222,27 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |  |trabalho.                                              |
 |--|-------------------------------------------------------|
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 # Projeto de Interface
 
  Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
- 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
 
 ## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+ 
+> ![UserFlow](images/userflow.png)
 
 
 ## Wireframes
+ 
+![HomePage](images/HomePage.png)
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+![Tela de Cadastro](images/TelaCadastro.png)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![Página dos Animais](images/TelaAnimais.png)
+
+![Animal Selecionado](images/AnimalSelecionado.png)
+
+![Cadastro do Animal](images/CadastroAnimal.png)
 
 
 # Metodologia
@@ -377,44 +257,23 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
  O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/invite/b/AhI2pIxE/94e50810cd26875e6f47a9c003419713/gestao-de-projetos e é apresentado, no estado atual, na Figura 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
  A equipe está organizada da seguinte maneira:
-  Scrum Master: Rommel Carneiro
-  Product Owner: Rommel Carneiro
+  Scrum Master: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
+  Product Owner: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
   
   Equipe de Desenvolvimento
   Henrique Dani Franco Nezio(Desenvolvedor Front End)
   Pedro Henrique Lobato (Desenvolvedor Back End)
   Ryan Cristian(Analista de Mercado)
   Matheus Pretti de Oliva (Designer)
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+  Lucca Oliveira Vasconcelos de Faria (Designer)
+  Arthur George Souza Cardenas
 
 
 ## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 |          Ambiente                | Plataforma |                                       Link de Acesso                                     |
 |----------------------------------|------------|------------------------------------------------------------------------------------------|
@@ -424,63 +283,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Gerenciamento do Projeto          |   Trello   | https://trello.com/invite/b/AhI2pIxE/94e50810cd26875e6f47a9c003419713/gestao-de-projetos | 
 |----------------------------------|------------|------------------------------------------------------------------------------------------|
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
  Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Feature Branch Workflow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados. Uma explicação rápida sobre este processo é apresentada no site "5 Git Workflows & Branching Strategy to deliver better code".
+ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório `upstream`.
+ O projeto segue a seguinte convenção para o nome de branchs:
+ - `master`: versão estável já testada do software
+ - `unstable`: versão já testada do software, porém instável
+ - `testing`: versão em testes do software
+ - `dev`: versão de desenvolvimento do software
+ 
+ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
+- `bugfix`: uma funcionalidade encontra-se com problemas
+- `enhancement`: uma funcionalidade precisa ser melhorada
+- `feature`: uma nova funcionalidade precisa ser introduzida
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
+> **GitHub Feature Branch Workflow**:
 >
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+> ![GitHub Workflow](images/Github-Workflow.png)
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
