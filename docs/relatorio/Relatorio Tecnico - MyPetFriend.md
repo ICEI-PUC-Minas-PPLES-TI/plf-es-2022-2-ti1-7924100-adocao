@@ -271,8 +271,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Divisão de Papéis
 
  A equipe está organizada da seguinte maneira:
-  Scrum Master: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
-  Product Owner: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
+  - Scrum Master: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
+  - Product Owner: Rommel Vieira Carneiro, Roberto Felipe Dias Ferreira da Rocha, Felipe Augusto Lara Soares
   
   Equipe de Desenvolvimento:
   - Henrique Dani Franco Nezio(Desenvolvedor Front End)
