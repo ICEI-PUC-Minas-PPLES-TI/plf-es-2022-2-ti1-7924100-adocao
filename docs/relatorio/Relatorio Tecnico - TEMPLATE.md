@@ -240,7 +240,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Wireframes
  
  **Home Page**:
-![HomePage](images/HomePage.png)
+![HomePage](images/Homepage.png)
 
 **Tela de Cadastro**:
 ![Tela de Cadastro](images/TelaCadastro.png)
