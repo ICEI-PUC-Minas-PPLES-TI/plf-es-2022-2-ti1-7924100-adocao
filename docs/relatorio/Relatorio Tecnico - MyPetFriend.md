@@ -232,7 +232,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
  Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
  
- O link do projeto de interface do My Pet Friend está disponível no seguinte link: https://www.figma.com/file/DC6DRkF79dKUSaFlxu6zAi/MyPetFriend?node-id=0%3A1
+ O link do projeto de interface interativo do My Pet Friend está disponível no seguinte link: https://www.figma.com/file/DC6DRkF79dKUSaFlxu6zAi/MyPetFriend?node-id=0%3A1
 
 ## User Flow
  
