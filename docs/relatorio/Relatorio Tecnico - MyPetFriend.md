@@ -171,7 +171,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O site deve separar os itens dependendo | ALTA     |
 |      |da localização onde o usuário se situa.  |          |
 |------|-----------------------------------------|----------|
-|RF-004| O site deve dividir permitir registrar  | MÉDIA    |
+|RF-004| O site deve permitir registrar          | MÉDIA    |
 |      |seus pet de forma que mostre seu         |          |
 |      |diferencial(raça,espécie)                |          |
 |------|-----------------------------------------|----------|
@@ -181,13 +181,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |      |será informado na caixa de pesquisa.     |          |
 |------|-----------------------------------------|----------|
 |RF-006| O site pode conter um chat com o doador | BAIXA    |
-|      |para poder trocar informações            |          |
+|      |para poder trocar informações.           |          |
 |------|-----------------------------------------|----------|
 |RF-007| O site deve conter uma ferramenta de    | ALTA     |
 |      |exclusão de anúncios para quando o animal|          |
 |      |já não estiver disponível.               |          | 
 |------|-----------------------------------------|----------|
-|RF-008| O site deve ter sua preferência de pets.| BAIXA    |
+|RF-008| O site deve obter sua preferência de pet| BAIXA    |
 |------|-----------------------------------------|----------|
 
 ### Requisitos não Funcionais
