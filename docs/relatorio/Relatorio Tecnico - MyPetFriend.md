@@ -261,11 +261,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
  Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-  Recursos para Projetos: esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
-  Perguntas para a próxima reunião: Recebe ideias que os integrantes tiveram durante o dia a dia e que devem ser apresentadas durante a próxima reunião devem ser incorporadas a esta lista.
-  A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-  Pendente: Quando uma tarefa tiver sido iniciada, mas que ainda não foi concluída, ela é movida para cá.
-  Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+  - Recursos para Projetos: esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+  - Perguntas para a próxima reunião: Recebe ideias que os integrantes tiveram durante o dia a dia e que devem ser apresentadas durante a próxima reunião devem ser incorporadas a esta lista.
+  - A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+  - Pendente: Quando uma tarefa tiver sido iniciada, mas que ainda não foi concluída, ela é movida para cá.
+  - Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
  O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/invite/b/AhI2pIxE/94e50810cd26875e6f47a9c003419713/gestao-de-projetos e é apresentado, no estado atual, na Figura 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
