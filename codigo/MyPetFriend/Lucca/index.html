@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página dos animais</title>
+</head>
+<body>
+    <div class="main">
+        <div id="pagini">
+
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script>
+        console.log(threads);
+        let container = document.querySelector('div#pagini');
+        for (let thread of threads) {
+            let html = `
+            <div class="row">
+                <a href="/thread.html?${thread.id}">
+                    <h4 class="titulo">
+                        ${thread.titulo}
+                    </h4>
+                    <div class="bottom">
+                        <p class="comment-count">
+                            ${thread.comentarios.length} comentários -
+                            Dono do anúncio: ${thread.autor} 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            `
+            container.insertAdjacentHTML('beforeend', html);
+        }
+    </script>
+    <style>
+        body {
+            margin: 10px 60px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h1, h4 {
+            margin: 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .main {
+            background-color: #F6F6EF;
+            padding: 10px 15px;
+        }
+        .row {
+            padding: 5px;
+        }
+        .bottom {
+            display: flex;
+            color: grey;
+            font-size: 12px;
+        }
+    </style>
+</body>
+</html>
