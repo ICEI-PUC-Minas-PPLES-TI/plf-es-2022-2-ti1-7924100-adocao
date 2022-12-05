@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Pet Friend - Cadastro de Animal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <img src="Imagens/LogoTIAW.png" class="logo">
+          <a class="navbar-brand" href="index.html">MyPetFriend</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastrar Animal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reporte.html">Suporte</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+
+    <h1>Cadastro do Animal</h1>
+
+    <div class="container">
+
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-contato">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputNome">Nome: (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required
+                        placeholder="Informe o nome do animal">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-5">
+                    <label for="inputContato">Contato do responsável: (*)</label>
+                    <input type="text" class="form-control" id="inputContato" required placeholder="Contato">
+                </div>
+                <div class="col-sm-7">
+                    <label for="inputHistoria">História do animal:</label>
+                    <input type="text" class="form-control" id="inputHistoria" required
+                        placeholder="Conte um pouco sobre o pet">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputCidade">Cidade:</label>
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Informe a cidade">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputEstado">Estado:</label>
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Informe o estado">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputCategoria">Categoria:</label>
+                    <input type="text" class="form-control" id="inputCategoria" required
+                        placeholder="Ex: Cachorro, Gato...">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputTopico1">Tópicos sobre o animal: (*)</label>
+                    <input type="text" class="form-control" id="inputTopico1" required
+                        placeholder="Ex: Vacinado(a), Castrado(a)">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputTopico2">(*)</label>
+                    <input type="text" class="form-control" id="inputTopico2" required
+                        placeholder="Ex: Calmo(a), Divertido(a)">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputTopico3">(*)</label>
+                    <input type="text" class="form-control" id="inputTopico3" required
+                        placeholder="Ex: Quieto(a), Alegre">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <label for="inputSexo">Sexo do animal:</label>
+                    <input type="text" class="form-control" id="inputSexo" required placeholder="Macho ou Fêmea">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputRaca">Raça:</label>
+                    <input type="text" class="form-control" id="inputRaca" required
+                        placeholder="Caso não tenha, insira (SRD)">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputIdade">Idade:</label>
+                    <input type="text" class="form-control" id="inputIdade" required
+                        placeholder="Informe a idade do animal">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputPorte">Porte do animal:</label>
+                    <input type="text" class="form-control" id="inputPorte" required placeholder="Ex: Grande, Médio...">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <a href="index.html"><input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <p class="copyright">&copy; Copyright | MyPetFriend - 2022 | ICEI PUC Minas </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeContatos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
+
+            //Remover depois de finalizado (Função que deve ser colocada no lugar é ExibePet)
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.pets.length; i++) {
+                let pet = db.pets[i];
+                $("#table-contatos").append(`<tr><td scope="row">${pet.id}</td>
+                                                <td>${pet.nome}</td>
+                                                <td>${pet.telefone}</td>
+                                                <td>${pet.historia}</td>
+                                                <td>${pet.cidade}</td>
+                                                <td>${pet.estado}</td>
+                                                <td>${pet.tipo}</td>
+                                            </tr>`);
+            }
+        }
+
+        function previewFile() {
+            const preview = document.querySelector('#inputImagem');
+            const file = document.querySelector('input[type=file]').files[0];
+            const reader = new FileReader();
+
+            reader.addEventListener("load", () => {
+                // convert image file to base64 string
+                preview.src = reader.result;
+                alterarImagem (idPet, reader.result)
+            }, false);
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        }
+        
+        function alterarImagem (id, imageURI) {    
+    let idx = db.pets.findIndex (elem => elem.id == id)
+    if (idx != -1) {
+        db.pets[idx].imagem = imageURI
+        localStorage.setItem('dbPets', JSON.stringify (db))
+    }
+}
+
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoTelefone = $("#inputContato").val();
+                let campoHistoria = $('#inputHistoria').val();
+                let campoCidade = $("#inputCidade").val();
+                let campoCategoria = $('#inputCategoria').val();
+                let campoEstado = $('#inputEstado').val();
+                let campoTopico1 = $('#inputTopico1').val();
+                let campoTopico2 = $('#inputTopico2').val();
+                let campoTopico3 = $('#inputTopico3').val();
+                let campoSexo = $('#inputSexo').val();
+                let campoRaca = $('#inputRaca').val();
+                let campoIdade = $('#inputIdade').val();
+                let campoPorte = $('#inputPorte').val();
+                let pet = {
+                    nome: campoNome,
+                    tipo: campoCategoria,
+                    telefone: campoTelefone,
+                    historia: campoHistoria,
+                    cidade: campoCidade,
+                    estado: campoEstado,
+                    topico1: campoTopico1,
+                    topico2: campoTopico2,
+                    topico3: campoTopico3,
+                    sexo: campoSexo,
+                    raca: campoRaca,
+                    idade: campoIdade,
+                    porte: campoPorte,
+                };
+
+                insertContato(pet);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+
+            });
+
+        }
+
+
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
