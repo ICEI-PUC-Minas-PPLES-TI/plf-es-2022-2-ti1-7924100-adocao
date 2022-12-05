@@ -342,13 +342,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+  
+![Diagrama de Arquitetura](images/diagrama.png)
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+
 
 
 # Avaliação da Aplicação
