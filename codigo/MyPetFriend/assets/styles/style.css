@@ -1,0 +1,271 @@
+/* CSS Página do Pet */
+
+.navbar-light {
+    background-color:rgb(164, 224, 229) ;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav-link {
+    margin-left: 35px;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.btn {
+    color:black;
+}
+
+.badge {
+    font-size: 17px;
+    color: black;
+}
+
+.btn-primary {
+    width: 530px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.collapse {
+    margin-left: 15px;
+}
+
+.historia {
+    margin-top: 12px;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.nome {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.info {
+    margin-left: 14px;
+}
+
+.localizacao {
+    margin-left: 12px;
+}
+
+.tags {
+    margin-left: 15px;
+}
+
+.petImagem1 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.petImagem2 {
+    width: 45%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.petImagem3 {
+    width: 45%;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: rgb(164, 224, 229);
+    text-align: center;
+}
+
+label {
+    font-weight: bolder;
+}
+::placeholder {
+    color: lightskyblue !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  lightskyblue !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  lightskyblue !important;
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+     margin-top: 50px;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-contatos tbody {
+     cursor: pointer;
+ }
+
+ /* Parte do Lobato */
+
+.sep {
+
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+
+.filtro {
+
+   border-radius: 300px;
+
+}
+
+.Filtro2 {
+
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+
+}
+
+.titulo{
+
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+
+}
+
+.cardct {
+
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 50px;
+	text-align: center;
+	background: rgb(164, 224, 229);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/* CSS Página Blog */
+
+.titulodestaques {
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulovideos {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.video1 {
+    margin-right: 100px;
+}
+
+.video2 {
+    margin-right: 100px;
+}
+
+.textonoticia {
+    text-align: justify;
+}
+
+.imagemnoticias {
+    width: 100%;
+}
+
+.resumo {
+    font-size: 15px;
+}
+
+.voltar {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.textoSobre {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.textoEditorial {
+    text-align: justify;
+    font-size: 12px;
+}
+/*Media Query tela com no máximo 600px - Início */
+
+@media screen and (min-width:281px) and (max-width:600px) {
+    .logo {
+        width: 15%;
+    }
+
+    .btn-primary {
+        width: 320px;
+    }
+
+    .historia {
+        margin-left: 5px;
+    }
+
+    .info {
+        margin-left: 5px;
+    }
+
+    .localizacao {
+        margin-left: 5px;
+    }
+
+    .tags {
+        margin-left: 5px;
+    }
+
+    
+}
+
+/*Media Query tela com no máximo 600px - Fim */
+
+
+/*Media Query tela com no máximo 280px - Início */
+@media screen and (max-width:280px) {
+    .logo {
+        width: 15%;
+    }
+
+    .btn-primary {
+        width: 230px;
+    }
+
+    .historia {
+        margin-left: 5px;
+    }
+
+    .info {
+        margin-left: 5px;
+    }
+
+    .localizacao {
+        margin-left: 5px;
+    }
+
+    .tags {
+        margin-left: 5px;
+    }
+
+}
+
+
