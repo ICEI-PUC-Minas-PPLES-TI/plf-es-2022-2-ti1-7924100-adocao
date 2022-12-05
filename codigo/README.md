@@ -1,5 +1,5 @@
-# Código do Projeto
+# Códigos do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+Na pasta My Pet Friend localizada nesse diretório, se encontram os códigos utilizados para desenvolver o trabalho.
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Para acessar o site publicado na internet, utilize o link: https://mypetfriendtiaw.netlify.app/
