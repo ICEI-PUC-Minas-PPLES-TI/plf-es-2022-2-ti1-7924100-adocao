@@ -26,4 +26,9 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Acesse o resultado final do projeto pelo link: https://mypetfriendtiaw.netlify.app/
+
+Entrando no link, você será redirecionado para a página do site em ambiente virtual. 
+Nessa página, você tem acesso à todos os recursos ofertados pelo site, como: cadastrar um animal, visualizar os animais disponíveis para adoção, blog com notícias sobre o mundo animal e suporte com a equipe desenvolvedora do trabalho.
+
+Acesse e junte-se a essa nobre iniciativa!
