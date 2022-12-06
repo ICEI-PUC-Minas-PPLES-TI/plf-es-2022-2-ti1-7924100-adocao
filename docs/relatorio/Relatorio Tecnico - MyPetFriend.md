@@ -499,11 +499,8 @@ Instruções de acesso:
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A lista a seguir traz as referências utilizadas nesse trabalho. são elas: 
+- Littlefield, A. Guia da metodologia ágil e scrum para iniciantes. 2016. Disponível em: https://blog.trello.com/br/scrum-metodologia-agil. Acessado em 12/09/2022.
+- Borges, Iara. Projeto cria Dezembro Verde para reflexão sobre abandono de animais. Disponível em:	https://www12.senado.leg.br/radio/1/noticia/2022/09/15/projeto-cria-dezembro-verde-para-reflexao-sobre-abandono-de-animais. Acessado em 10/09/2022.
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+
