@@ -165,27 +165,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |      |registrar de forma limpa as informações  |          |
 |      |do pet que você quer doar.               |          |
 |------|-----------------------------------------|----------|
-|RF-002| O site pode conter notícias sobre adoção| BAIXA    |
-|      |  ou pesquisas novas                     |          |
+|RF-002| O site pode conter notícias sobre o     | BAIXA    |
+|      |mundo animal.                            |          |
 |------|-----------------------------------------|----------|
-|RF-003| O site deve separar os itens dependendo | ALTA     |
-|      |da localização onde o usuário se situa.  |          |
+|RF-003|O site deve trazer em sua página         |          |
+|      | principal os animais cadastrados.       | ALTA     |
+|      |                                         |          |
 |------|-----------------------------------------|----------|
-|RF-004| O site deve permitir registrar          | MÉDIA    |
-|      |seus pet de forma que mostre seu         |          |
-|      |diferencial(raça,espécie)                |          |
+|RF-004|O site deve ter uma página destinada para| MÉDIA    |
+|      |cada animal que foi apresentado em sua   |          |
+|      |tela principal.                          |          |
 |------|-----------------------------------------|----------|
-|RF-005| O site deve oferecer uma funcionalidade | ALTA     |
-|      |de filtro/pesquisa para permitir ao      |          |
-|      |usuário localizar um texto específico que|          | 
-|      |será informado na caixa de pesquisa.     |          |
+|RF-005|O site deve trazer uma página de suporte | MÉDIA    |
+|      |para que o usuário entre em contato com a|          |
+|      |equipe de desenvolvimento para reportar  |          | 
+|      |qualquer problema.                        |          |
 |------|-----------------------------------------|----------|
 |RF-006| O site pode conter um chat com o doador | BAIXA    |
 |      |para poder trocar informações.           |          |
 |------|-----------------------------------------|----------|
-|RF-007| O site deve conter uma ferramenta de    | ALTA     |
-|      |exclusão de anúncios para quando o animal|          |
-|      |já não estiver disponível.               |          | 
+|RF-007|O site deve oferecer uma forma de contato| ALTA     |
+|      |com o anunciante da doação daquele animal|          |
+|      |específico.                              |          | 
 |------|-----------------------------------------|----------|
 |RF-008| O site deve obter sua preferência de pet| BAIXA    |
 |------|-----------------------------------------|----------|
