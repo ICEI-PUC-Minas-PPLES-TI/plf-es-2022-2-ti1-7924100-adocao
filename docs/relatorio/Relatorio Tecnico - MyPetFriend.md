@@ -354,7 +354,7 @@ https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao/tree
 ## Template do Site
 O padrão de layout a ser utilizado pelo site tem grande parte correspondente ao projeto de Interface elaborado anteriormente, conforme Figura 6.
 
-(images/TelaAnimais.png)
+![Template](images/TelaAnimais.png)
 
 O template criado está disponível no site https://www.figma.com/file/DC6DRkF79dKUSaFlxu6zAi/MyPetFriend?node-id=0%3A1 e é composto pelos seguintes layouts:
 -Tela principal (todos os animais)
@@ -373,7 +373,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 Aluno responsável: Henrique Dani Franco Nezio
 A tela de cadastro do sistema apresenta os campos de informações necessárias para cadastrar com sucesso um novo animal. Os dados cadastrados são armazenados no LocalStorage com estruturas de dados baseados em JSON. Um exemplo da tela é apresentado na Figura 11.
 
-(images/cadastroanimal.png)
+![Cadastro do Animal](images/cadastroanimal.png)
 
 Requisitos atendidos
 RF-01 - O site deve apresentar uma maneira de registrar de forma limpa as informações do pet que você quer doar.
@@ -385,7 +385,7 @@ Artefatos da funcionalidade
 - style.css
 
 Estrutura de Dados
-(images/estruturadados.png)
+![Estrutura de Dados](images/estruturadados.png)
 
 Instruções de acesso:
 -Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/cadastro.html 
@@ -395,7 +395,7 @@ Instruções de acesso:
 Aluno responsável: Henrique Dani Franco Nezio
 A tela principal permite ao usuário visualizar os animais pré cadastrados no localStorage do site, assim como ver os animais que foram cadastrados por ele.
 
-(images/telaPrincipal.png)
+![Tela principal](images/telaPrincipal.png)
 
 Artefatos da funcionalidade
 - index.html
@@ -410,7 +410,7 @@ Instruções de acesso
 Aluno responsável: Lucca Oliveira Vasconcelos de Faria
 A tela do animal selecionado na página principal permite ao usuário visualizar mais informações sobre aquele animal que ele selecionou.
 
-(images/telaAnimal.png)
+![Tela Animal](images/telaAnimal.png)
 
 Artefatos da funcionalidade
 - pagPet.html
@@ -428,7 +428,8 @@ Instruções de acesso
 Aluno responsável: Pedro Henrique Lobato Firbida
 O Blog traz notícias sobre o mundo animal e informações pertinentes aos queridos Pets.
 
-(images/telaBlog1.png)
+![Tela Blog](images/telaBlog1.png)
+(A imagem traz apenas a primeira parte do Blog, o restante dele você pode conferir entrando no link disponibilizado no tópico de Intruções de acesso, abaixo.)
 
 Artefatos da funcionalidade
 - blog.html
@@ -443,7 +444,7 @@ Instruções de acesso:
 Aluno responsável:Ryan Cristian Oliveira Rezende
 A tela de suporte traz uma funcionalidade que possibilita que o usuário entre em contato com a equipe de desenvolvimento para reportar algum problema, bug ou experiência negativa dentro do site.
 
-(images/telaSuporte.png)
+![Tela de Suporte](images/telaSuporte.png)
 
 Artefatos da funcionalidade
 - reporte.html
