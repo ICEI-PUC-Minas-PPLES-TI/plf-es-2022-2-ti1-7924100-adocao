@@ -342,13 +342,127 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-  
+Diagrama de Componentes
+Os componentes que fazem parte da solução são apresentados na Figura que se segue.
+
 ![Diagrama de Arquitetura](images/diagrama.png)
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+A solução implementada conta com os seguintes módulos:
+-Navegador - Interface básica do sistema 
+-Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+-Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:Cadastro dos animais, novos animais cadastrados   pelo usuário, Dados dos animais pré cadastrados e dados dos animais pré inseridos pelo grupo na intenção de deixar o site preenchido com conteúdo.
+-Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
+Hospedagem
+O site utiliza a plataforma do Netlify como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
+https://mypetfriendtiaw.netlify.app/
+
+A publicação do site no Netlify é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
+https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao/tree/master/codigo/MyPetFriend
+
+Template do Site
+O padrão de layout a ser utilizado pelo site tem grande parte correspondente ao projeto de Interface elaborado anteriormente, conforme Figura 6.
+
+(images/TelaAnimais.png)
+
+O template criado está disponível no site https://www.figma.com/file/DC6DRkF79dKUSaFlxu6zAi/MyPetFriend?node-id=0%3A1 e é composto pelos seguintes layouts:
+-Tela principal (todos os animais)
+-Tela de cadastro
+-Blog
+-Tela de suporte
+-Tela de cada animal
+
+A responsividade segue o padrão do Bootstrap.
+
+
+Funcionalidades do Sistema (Telas)
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
+
+Cadastro de Animais (RF-01)
+Aluno responsável: Henrique Dani Franco Nezio
+A tela de cadastro do sistema apresenta os campos de informações necessárias para cadastrar com sucesso um novo animal. Os dados cadastrados são armazenados no LocalStorage com estruturas de dados baseados em JSON. Um exemplo da tela é apresentado na Figura 11.
+
+(images/cadastroanimal.png)
+
+Requisitos atendidos
+RF-01 - O site deve apresentar uma maneira de registrar de forma limpa as informações do pet que você quer doar.
+
+Artefatos da funcionalidade
+- cadastro.html
+- app.js
+- LogoTIAW.png
+- style.css
+
+Estrutura de Dados
+(images/estruturadados.png)
+
+Instruções de acesso:
+-Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/cadastro.html 
+-A tela de cadastro será exibida pelo aplicativo após clicar no link acima.
+
+Apresentação dos animais cadastrados - Tela principal (RF-03)
+Aluno responsável: Henrique Dani Franco Nezio
+A tela principal permite ao usuário visualizar os animais pré cadastrados no localStorage do site, assim como ver os animais que foram cadastrados por ele.
+
+(images/telaPrincipal.png)
+
+Artefatos da funcionalidade
+- index.html
+- app.js
+- style.css
+
+Instruções de acesso
+- Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/index.html ;
+- A tela dos animais será exibida após clicar no link acima.
+
+Apresentação do animal selecionado - Tela principal (RF-03)
+Aluno responsável: Lucca Oliveira Vasconcelos de Faria
+A tela do animal selecionado na página principal permite ao usuário visualizar mais informações sobre aquele animal que ele selecionou.
+
+(images/telaAnimal.png)
+
+Artefatos da funcionalidade
+- pagPet.html
+- app.js
+- style.css
+
+Instruções de acesso
+-Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/pagpet?id=1 ;
+-A tela da Baunilha será exibida após clicar no link acima.
+-Troque o valor de id na URL, exibida pelo navegador, por um valor de 1 até 4 (caso não tenha cadastrado nenhum animal) ou então por um valor de 1 até 4 + número de    animais que foram cadastrados.
+-Você será redirecionado para a tela do animal com aquele id (identificador).
+-Você também pode optar por voltar à tela principal, clicando no botão home da Navbar, e por lá entrar na página do animal que escolher.
+
+Blog (RF-02)
+Aluno responsável: Pedro Henrique Lobato Firbida
+O Blog traz notícias sobre o mundo animal e informações pertinentes aos queridos Pets.
+
+(images/telaBlog1.png)
+
+Artefatos da funcionalidade
+- blog.html
+- app.js
+- style.css
+
+Instruções de acesso:
+- Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/blog.html ;
+- O Blog será exibido pelo aplicativo após clicar no link acima.
+
+Tela de Suporte (RF-07)
+Aluno responsável:Ryan Cristian Oliveira Rezende
+A tela de suporte traz uma funcionalidade que possibilita que o usuário entre em contato com a equipe de desenvolvimento para reportar algum problema, bug ou experiência negativa dentro do site.
+
+(images/telaSuporte.png)
+
+Artefatos da funcionalidade
+- reporte.html
+- main.js
+- style.css
+- main.css
+
+Instruções de acesso:
+- Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/reporte.html ;
+- A página de suporte será exibida pelo aplicativo após clicar no link acima.
 
 
 # Avaliação da Aplicação
