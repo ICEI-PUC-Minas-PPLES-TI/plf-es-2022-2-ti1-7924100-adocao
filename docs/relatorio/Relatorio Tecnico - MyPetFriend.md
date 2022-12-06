@@ -459,9 +459,9 @@ Instruções de acesso:
 
  Para esse projeto foram criados três cenário de teste, e subsquente três testes, para a validação da funcinalidade do software, os cenários e os requisitos que eles satisfazem são:
  
--Cadastrar um novo pet, RF-01 e RF-04
--Trocar a foto de um animal récem-cadastrado, RF-01 e RF-04
--Enviar uma mensagem para o suporte, RF-07
+- Cadastrar um novo pet, RF-01 e RF-04
+- Trocar a foto de um animal récem-cadastrado, RF-01 e RF-04
+- Enviar uma mensagem para o suporte, RF-07
 
 
 ## Plano de Testes
@@ -469,9 +469,9 @@ Instruções de acesso:
  Para os testes todos os três cenários foram selecionados.
  Assim, as funcionalidades avaliadas pelos teste foram:
  
--A funcionalidade do cadastro de novos animais no site, ditada pela função insertContact no código
--A funcionalidade de exibir os pets na página de apresentação dos animais registrados, ditada pela função exibePets no código fonte
--A funcionalidade de exibição de cada página de animal, como também a opção de troca de imagem do animal disponível nessa página, englobando a função exibePet e alteraImagem, respectivamente
+- A funcionalidade do cadastro de novos animais no site, ditada pela função insertContact no código
+- A funcionalidade de exibir os pets na página de apresentação dos animais registrados, ditada pela função exibePets no código fonte
+- A funcionalidade de exibição de cada página de animal, como também a opção de troca de imagem do animal disponível nessa página, englobando a função exibePet e alteraImagem, respectivamente
 
 
 ## Registros de Testes
