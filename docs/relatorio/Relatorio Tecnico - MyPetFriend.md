@@ -316,8 +316,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > ![GitHub Workflow](images/Github-Workflow.png)
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
