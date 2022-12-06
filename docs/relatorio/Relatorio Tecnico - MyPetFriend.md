@@ -353,14 +353,14 @@ A solução implementada conta com os seguintes módulos:
 -Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:Cadastro dos animais, novos animais cadastrados   pelo usuário, Dados dos animais pré cadastrados e dados dos animais pré inseridos pelo grupo na intenção de deixar o site preenchido com conteúdo.
 -Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-Hospedagem
+# Hospedagem
 O site utiliza a plataforma do Netlify como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
 https://mypetfriendtiaw.netlify.app/
 
 A publicação do site no Netlify é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
 https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao/tree/master/codigo/MyPetFriend
 
-Template do Site
+# Template do Site
 O padrão de layout a ser utilizado pelo site tem grande parte correspondente ao projeto de Interface elaborado anteriormente, conforme Figura 6.
 
 (images/TelaAnimais.png)
@@ -375,10 +375,10 @@ O template criado está disponível no site https://www.figma.com/file/DC6DRkF79
 A responsividade segue o padrão do Bootstrap.
 
 
-Funcionalidades do Sistema (Telas)
+## Funcionalidades do Sistema (Telas)
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
-Cadastro de Animais (RF-01)
+# Cadastro de Animais (RF-01)
 Aluno responsável: Henrique Dani Franco Nezio
 A tela de cadastro do sistema apresenta os campos de informações necessárias para cadastrar com sucesso um novo animal. Os dados cadastrados são armazenados no LocalStorage com estruturas de dados baseados em JSON. Um exemplo da tela é apresentado na Figura 11.
 
@@ -400,7 +400,7 @@ Instruções de acesso:
 -Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/cadastro.html 
 -A tela de cadastro será exibida pelo aplicativo após clicar no link acima.
 
-Apresentação dos animais cadastrados - Tela principal (RF-03)
+# Apresentação dos animais cadastrados - Tela principal (RF-03)
 Aluno responsável: Henrique Dani Franco Nezio
 A tela principal permite ao usuário visualizar os animais pré cadastrados no localStorage do site, assim como ver os animais que foram cadastrados por ele.
 
@@ -415,7 +415,7 @@ Instruções de acesso
 - Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/index.html ;
 - A tela dos animais será exibida após clicar no link acima.
 
-Apresentação do animal selecionado - Tela principal (RF-03)
+# Apresentação do animal selecionado - Tela principal (RF-03)
 Aluno responsável: Lucca Oliveira Vasconcelos de Faria
 A tela do animal selecionado na página principal permite ao usuário visualizar mais informações sobre aquele animal que ele selecionou.
 
@@ -433,7 +433,7 @@ Instruções de acesso
 -Você será redirecionado para a tela do animal com aquele id (identificador).
 -Você também pode optar por voltar à tela principal, clicando no botão home da Navbar, e por lá entrar na página do animal que escolher.
 
-Blog (RF-02)
+# Blog (RF-02)
 Aluno responsável: Pedro Henrique Lobato Firbida
 O Blog traz notícias sobre o mundo animal e informações pertinentes aos queridos Pets.
 
@@ -448,7 +448,7 @@ Instruções de acesso:
 - Abra um navegador de Internet e informe a seguinte URL: https://mypetfriendtiaw.netlify.app/blog.html ;
 - O Blog será exibido pelo aplicativo após clicar no link acima.
 
-Tela de Suporte (RF-07)
+# Tela de Suporte (RF-07)
 Aluno responsável:Ryan Cristian Oliveira Rezende
 A tela de suporte traz uma funcionalidade que possibilita que o usuário entre em contato com a equipe de desenvolvimento para reportar algum problema, bug ou experiência negativa dentro do site.
 
