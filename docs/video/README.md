@@ -4,6 +4,4 @@ A relação abaixo lista o vídeos feito para o projeto:
 
 O vídeo ultrapassou o limite de tamanho de arquivo. Portanto, é possível acessá-lo apenas pelo link acima.
 
-> Nesta pasta inclua arquivos de vídeo produzidos para divulgação do 
-> projeto e seus resutados.
 
