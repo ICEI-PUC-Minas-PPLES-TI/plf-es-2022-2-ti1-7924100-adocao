@@ -15,8 +15,6 @@ Como objetivos específicos, podemos ressaltar:
 * Pedro Henrique Lobato Firbida
 * Ryan Cristian Oliveira Rezende
 * Lucca Oliveira Vasconcelos de Faria
-* Matheus Pretti de Oliva
-* Arthur George Souza Cardenas
 
 ## Professores responsáveis
 
