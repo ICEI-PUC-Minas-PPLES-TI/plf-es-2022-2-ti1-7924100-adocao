@@ -1,31 +1,34 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: 01 - Adoção de Pets (My Pet Friend)
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Souza Cardenas
+    given-names: Arthur George 
+  - family-names: Franco Nezio
+    given-names: Henrique Dani 
+  - family-names: Oliveira Vasconcelos de Faria
+    given-names: Lucca
+  - family-names: Pretti de Oliva
+    given-names: Matheus
+  - family-names: Lobato Firbida
+    given-names: Pedro Henrique 
+  - family-names: Oliveira Rezende
+    given-names: Ryan Cristian 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Lara Soares
+    given-names: Felipe Augusto
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Dias Ferreira da Rocha
+    given-names: Roberto Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
 keywords:
-  - 
-  - 
-repository-code: 
+  - pets
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-adocao
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2022-12-14 
